@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaher/capacitor-sms-retriever.git"
+    "url": "git+https://github.com/rafcy/capacitor-sms-retriever.git"
   },
   "bugs": {
-    "url": "https://github.com/shaher/capacitor-sms-retriever/issues"
+    "url": "https://github.com/rafcy/capacitor-sms-retriever/issues"
   },
   "keywords": [
     "capacitor",
@@ -45,10 +45,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^7.4.3",
-    "@capacitor/core": "^7.4.3",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
     "@capacitor/docgen": "^0.3.0",
-    "@capacitor/ios": "^7.4.3",
+    "@capacitor/ios": "^8.0.0",
     "@ionic/eslint-config": "^0.4.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^2.0.0",
@@ -61,7 +61,7 @@
     "typescript": "~5.9.2"
   },
   "peerDependencies": {
-    "@capacitor/core": "^7.0.0"
+    "@capacitor/core": "^8.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",

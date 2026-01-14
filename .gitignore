@@ -1,5 +1,5 @@
 # node files
-dist
+# dist - Commented out so dist/ is committed for Git installations
 node_modules
 
 # iOS files

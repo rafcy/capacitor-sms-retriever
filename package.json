@@ -1,5 +1,5 @@
 {
-  "name": "@shaher/capacitor-sms-retriever",
+  "name": "@rafcy/capacitor-sms-retriever",
   "version": "0.1.1",
   "description": "Capacitor plugin to retrieve SMS on Android with getHashCode support",
   "type": "module",

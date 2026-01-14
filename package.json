@@ -12,7 +12,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "ShaherCapacitorSmsRetriever.podspec"
+    "RafcyCapacitorSmsRetriever.podspec"
   ],
   "author": "Shaher",
   "license": "MIT",

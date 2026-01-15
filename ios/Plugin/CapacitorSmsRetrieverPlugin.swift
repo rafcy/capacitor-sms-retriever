@@ -23,11 +23,13 @@ public class CapacitorSmsRetrieverPlugin: CAPPlugin {
     }
 
     @objc func present(_ call: CAPPluginCall) {
-        let numberOfCharacters = call.getInt("numberOfCharacters") ?? 4
-        
-        DispatchQueue.main.async {
-            let pinView = PinViewController(numberOfCharacters: numberOfCharacters, returnCall: call)
-            self.bridge?.viewController?.present(pinView, animated: true)
+        // iOS does not have automatic SMS retrieval like Android
+        // Since you're using your own UI for PIN entry, this method just resolves without showing any UI
+        // You can manually pass the code from your own UI by calling this with the code parameter
+        if let code = call.getString("code") {
+            call.resolve(["code": code])
+        } else {
+            call.resolve(["message": "Please use your own UI to get the PIN code"])
         }
     }
 
